@@ -5,9 +5,9 @@ name: Hello Wolrd Workflow
 
 on:   
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master, staging]
+    branches: [main, staging]
 
 # Jobs to run
 jobs:
